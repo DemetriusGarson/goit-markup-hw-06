@@ -1,0 +1,280 @@
+
+@media screen {
+    /*=========="DEFAULT" STYLE SET MOBILE==============*/
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    ul,
+    ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
+        font-family: inherit;
+        color: currentColor;
+    }
+
+    input {
+        font-family: inherit;
+    }
+
+    fieldset {
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    img {
+        display: block;
+    }
+
+    body {
+        Font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #434455;
+        background-color: #ffffff;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .container {
+        max-width: 318px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+
+    .section-title{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11111;
+            text-align: center;
+            color: #2e2f42;
+    }
+
+        .section {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
+
+            
+}
+/*==========/"DEFAULT" STYLE SET MOBILE==============*/
+
+
+/*===========PAGE HEADER STYLE MOBILE==============*/
+.menu-nav{
+    display:none;
+}
+
+.page-address{
+    display:none;
+}
+
+/* Font-family: "Roboto",
+            sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #434455;
+            background-color: #ffffff; */
+
+.page-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    margin-bottom: 0;
+}
+
+.logo-studio-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.mobile-menu-open-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+.mobile-menu-open-btn-icon{
+    fill: #2f2f37;
+}
+
+.page-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/*===========/PAGE HEADER STYLE MOBILE==============*/
+
+
+/*===========MENU STYLE MOBILE==============*/
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: #fff;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.mobile-menu-container{
+    position: relative;
+    height: 100%;
+    padding-top: 72px;
+}
+
+.mobile-menu-close-btn{
+    position: absolute;
+        top: 24px;
+        right: 24px;
+        width: 24px;
+        height: 24px;
+        line-height: 0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0;
+        cursor: pointer;
+
+}
+
+.menu-nav.menu-nav-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+/*===========/MENU STYLE MOBILE==============*/
+
+
+
+@media screen and (min-width: 768px){
+    /*=========="DEFAULT" STYLE SET TABLET==============*/
+
+/* .section-title {
+    } */
+
+/* .section {
+    } */
+
+    .container {
+        max-width: 766px;
+        }
+
+    /*==========/"DEFAULT" STYLE SET TABLET==============*/
+
+
+
+    /*===========PAGE HEADER STYLE TABLET==============*/
+
+/* .page-logo {
+} */
+
+/* .logo-studio-header {
+} */
+
+    /*===========/PAGE HEADER STYLE TABLET==============*/
+}
+
+@media screen and (min-width: 1158px){
+/*=========="DEFAULT" STYLE SET DESKTOP==============*/
+
+/* .section-title {
+    } */
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container{
+    max-width: 1158px;
+}
+
+    /*==========/"DEFAULT" STYLE SET DESKTOP==============*/
+
+
+    /*===========PAGE HEADER STYLE DESKTOP==============*/
+    
+/* .page-logo {
+} */
+
+/* .logo-studio-header {
+} */
+
+
+    /*===========/PAGE HEADER STYLE DESKTOP==============*/
+    
+}

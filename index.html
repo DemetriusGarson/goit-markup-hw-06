@@ -30,7 +30,7 @@
     <!--PAGE HEADER-->
 
     <header class="header">
-      <div class="container">
+      <div class="container page-header-container">
         <nav class="page-nav">
           <a class="page-logo" href="./index.html"
             >Web<span class="logo-studio-header">Studio</span></a
@@ -48,6 +48,12 @@
             </li>
           </ul>
         </nav>
+
+        <button class="mobile-menu-open-btn" type="button">
+          <svg class="mobile-menu-open-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
 
         <address class="page-address">
           <ul id="contacts" class="contacts-list">
@@ -81,7 +87,7 @@
       <!--BENEFITS SECTION-->
       <!-- <section class="benefits-section section">
         <div class="container">
-          <h2 class="benefits-section-heading visually-hidden">Our Benefits</h2>
+          <h2 class="benefits-section-heading section-title visually-hidden">Our Benefits</h2>
           <ul class="benefits-list-icons">
             <li class="benefits-list-icons-item"></li>
             <li class="benefits-list-icons-item"></li>
@@ -155,7 +161,7 @@
       <!--TEAM SECTION-->
       <!-- <section class="team-section section">
         <div class="container">
-          <h2 class="team-section-heading">Our Team</h2>
+          <h2 class="team-section-heading section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
               <img
@@ -435,7 +441,7 @@
       <!--PORTFOLIO SECTION-->
       <!-- <section class="portfolio-section section">
         <div class="container">
-          <h2 class="portfolio-section-heading" id="portfolio">
+          <h2 class="portfolio-section-heading section-title" id="portfolio">
             Our Portfolio
           </h2>
           <ul class="portfolio-list">
@@ -657,7 +663,34 @@
         </div>
       </div>
     </footer> -->
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu is-open">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn" type="button">
+          <svg class="mobile-menu-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <ul class="menu-nav menu-nav-mobile">
+            <li class="menu-nav-item menu-nav-mobile-item">
+              <a class="menu-nav-link menu-nav-mobile-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-nav-item menu-nav-mobile-item">
+              <a class="menu-nav-link menu-nav-mobile-link" href="">Portfolio</a>
+            </li>
+            <li class="menu-nav-item menu-nav-mobile-item">
+              <a class="menu-nav-link menu-nav-mobile-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
     <!-- MODAL SECTION -->
+
     <!-- <div class="backdrop">
       <div class="modal-window">
         <button class="modal-close-btn" type="button">
