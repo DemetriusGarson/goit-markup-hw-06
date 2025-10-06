@@ -111,14 +111,7 @@
     display:none;
 }
 
-/* Font-family: "Roboto",
-            sans-serif;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #434455;
-            background-color: #ffffff; */
+
 
 .page-logo{
     font-family: "Raleway", sans-serif;
@@ -211,9 +204,28 @@
 
 }
 
-.menu-nav.menu-nav-mobile{
+.menu-nav.mobile-menu-nav{
     display: flex;
     flex-direction: column;
+    gap: 40px;
+}
+
+/* Font-family: "Roboto",
+            sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #434455;
+            background-color: #ffffff; */
+
+.mobile-menu-nav-item{
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 /*===========/MENU STYLE MOBILE==============*/
