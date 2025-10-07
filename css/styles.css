@@ -359,6 +359,7 @@
 /*PORTFOLIO SECTION MOBILE*/
 
 .portfolio-section .container {
+    max-width: 767px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -447,6 +448,152 @@
 }
 
 /* /PORTFOLIO SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*FOOTER SECTION MOBILE*/
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-discription-wrapper {
+    margin-right: 120px;
+}
+
+.page-logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio-footer {
+    color: #f4f4fd;
+    line-height: 1.17;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.footer-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+}
+
+.footer-section {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+
+
+.footer-social-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer-social-discription {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-list-social {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list-social-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list-social-item-link:hover,
+.footer-list-social-item-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-list-social-item-icon {
+    fill: #f4f4fd;
+}
+
+.footer-form-container {
+    margin: 0px;
+}
+
+.footer-form-head-text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+.footer-form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.footer-form-input::placeholder {
+    color: #ffffff;
+}
+
+.footer-form-btn {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-form-icon {
+    margin-left: 16px;
+}
+
+/* /FOOTER SECTION MOBILE xxxxxxxxxxxxxxxxxxxx*/
 
 @media screen and (max-width:767px){
 
@@ -820,9 +967,9 @@ color: #404bbf;
     justify-content: center;
 } */
 
-.benefits-item-text {
+/* .benefits-item-text {
     max-width: 356px;
-}
+} */
 
 .benefits-item-heading {
     /* font-size: 36px;
@@ -952,6 +1099,7 @@ color: #404bbf;
 /*PORTFOLIO SECTION TABLET*/
 
 .portfolio-section .container {
+    max-width: 768px;
     /* margin-left: auto;
     margin-right: auto;
     align-items: center; */
@@ -982,8 +1130,8 @@ color: #404bbf;
 }
 
 .portfolio-item-img {
-    width: 356px;
-    height: 300px;
+    max-width: 356px;
+    max-height: 300px;
 }
 
 /* .portfolio-list-item {
@@ -1519,6 +1667,7 @@ color: #404bbf;
 /*PORTFOLIO SECTION DESKTOP*/
 
 .portfolio-section .container {
+    min-width: 1158px;
     /* margin-left: auto;
     margin-right: auto;
     align-items: center; */
@@ -1551,8 +1700,8 @@ color: #404bbf;
 }
 
 .portfolio-item-img {
-    width: 356px;
-    height: 300px;
+    max-width: 356px;
+    max-height: 300px;
 }
 
 /* .portfolio-list-item {
