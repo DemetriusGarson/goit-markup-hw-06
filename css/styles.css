@@ -250,6 +250,102 @@
     text-align: left;
 }
 /* /BENEFITS SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* TEAM SECTION MOBILE */
+.team-section {
+    background: #f4f4fd;
+}
+
+.team-section{
+    max-width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+.team-section-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 72px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-list-item-wrapper {
+    min-width: 264px;
+    padding: 32px 0;
+    border-radius: 0 0 4px 4px;
+    background: #fff;
+    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
+}
+
+.team-list-item {
+    width: 264px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+
+.team-item-heading {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.team-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-list-social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-list-social-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.team-list-social-item-link:hover,
+.team-list-social-item-link:focus {
+    background-color: #404bbf;
+}
+
+.team-list-social-item-icon {
+    fill: #f4f4fd;
+}
+/*  /TEAM SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 @media screen and (max-width:767px){
 
 
