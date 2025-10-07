@@ -515,16 +515,12 @@
 }
 
 .page-logo-footer {
-    /* justify-content: center;
-    text-align: center; */
-    /* display: inline-block; */
+
     margin-bottom: 16px;
     text-transform: uppercase;
     color: #4d5ae5;
     text-align: center;
 }
-
-
 
 .logo-studio-footer {
     color: #f4f4fd;
@@ -548,11 +544,6 @@
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
-
-
-
-
 .footer-list-social {
     display: flex;
     gap: 16px;
@@ -583,14 +574,7 @@
 .footer-form-container {
     display: flex;
     flex-direction: column;
-    /* margin-left: 80px; */
 }
-
-
-
-
-
-
 
 .footer-form-input {
     width: 264px;
@@ -823,7 +807,13 @@ text-align: center;
 /* /PORTFOLIO SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*FOOTER SECTION TABLET*/
 
-
+.footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: stretch;
+}
 /* /FOOTER SECTION TABLET xxxxxxxxxxxxxxxxxxxx*/
 
 @media screen and (min-width: 1158px){
