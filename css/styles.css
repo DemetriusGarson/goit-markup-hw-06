@@ -291,8 +291,6 @@
 }
 
 .team-list {
-    /* display: flex;
-    flex-direction: column; */
     row-gap: 72px;
     justify-content: center;
     align-items: center;
@@ -305,7 +303,6 @@
     padding: 32px 0;
     border-radius: 0 0 4px 4px;
     background: #fff;
-    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 
 .team-list-item {
@@ -458,15 +455,11 @@
 /*FOOTER SECTION MOBILE*/
 
 .footer-section {
-    max-width:767px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 96px;
 }
-
-
-
 .footer-discription-wrapper {
     
     display:flex;
@@ -763,10 +756,6 @@ color: #404bbf;
     max-width: 1157px;
 }
 
-/* .container{
-    max-width: 768px;
-} */
-
 .benefits-list {
 flex-direction: row;
 flex-wrap: wrap;
@@ -778,8 +767,6 @@ text-align: center;
     max-width: calc((100% - 24px) / 2);
 }
 
-
-
 .benefits-item-heading {
     text-align: left;
 }
@@ -788,32 +775,6 @@ text-align: center;
 /* /BENEFITS SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 }
 /* TEAM SECTION TABLET */
-/* .team-section {
-    background: #f4f4fd;
-} */
-
-/* .team-section {
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-} */
-
-.team-section-container{
-    flex-direction: column;
-}
-
-/* .team-section-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-} */
 
 .team-list {
     display: flex;
@@ -821,104 +782,28 @@ text-align: center;
     flex-wrap: wrap;
     row-gap: 64px;
     column-gap: 24px;
-    /* justify-content: center;
-    align-items: center; */
+
 }
 
 .team-list-item-wrapper {
-    /* flex-direction: row; */
-    
     min-width: 264px;
-    padding: 32px 0;
     border-radius: 0 0 4px 4px;
     background: #fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-/* .team-list-item {
-    width: 264px;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-
-/* .team-item-heading {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 8px;
-} */
-
-/* .team-item-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 8px;
-} */
-
-
-
-/* .team-list-social {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .team-list-social-item-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4d5ae5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .team-list-social-item-link:hover,
-.team-list-social-item-link:focus {
-    background-color: #404bbf;
-} */
-
-/* .team-list-social-item-icon {
-    fill: #f4f4fd;
-} */
 /*  /TEAM SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*PORTFOLIO SECTION TABLET*/
 
 .portfolio-section .container {
-    /* max-width: 768px; */
-    /* margin-left: auto;
-    margin-right: auto;
-    align-items: center; */
     flex-direction: column;
 }
 
-/* .portfolio-section-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-} */
+
 
 .portfolio-list {
-
-    /* display: flex; */
     flex-direction: row;
     flex-wrap: wrap;
-    /* column-gap: 24px;
-    row-gap: 48px; */
     justify-content: center;
     align-items: center;
 }
@@ -927,68 +812,6 @@ text-align: center;
     max-width: 356px;
     max-height: 300px;
 }
-
-/* .portfolio-list-item {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .portfolio-list-item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-
-/* .portfolio-item-overlay-wrapper {
-    position: relative;
-    overflow: hidden;
-} */
-
-/* .portfolio-item-overlay-discription {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .portfolio-list-item:hover .portfolio-item-overlay-discription {
-    transform: translateY(0%);
-} */
-
-
-/* .portfolio-list-item-wrapper {
-    padding: 32px 16px;
-    border-right: 1px solid #e7e9fc;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-} */
-
-/* .portfolio-item-heading {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-} */
-
-/* .portfolio-item-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-} */
 
 /* /PORTFOLIO SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*FOOTER SECTION TABLET*/
@@ -1275,76 +1098,9 @@ text-align: center;
 /* /HERO SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*BENEFITS SECTION DESKTOPxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-
-
-
-
-
-
 .benefits-list{
     flex-wrap:nowrap;
 }
-
-/* .benefits-item-icon {
-    display: none;
-    width: 264px;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    border: 1px solid #8e8f99;
-    margin-bottom: 8px;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* .benefits-item-text {
-    max-width: 356px;
-} */
-
-.benefits-item-heading {
-    /* font-size: 36px;
-    line-height: 1.11111;
-    margin-bottom: 8px;
-    color: #2e2f42; */
-    text-align: left;
-}
-
-
-
-/* .benefits-item-description {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: left;
-} */
-
-/* /BENEFITS SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-/* BENEFITS SECTION DESKTOP*/
-
-/* .benefits-section {
-    min-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-} */
-
-/* .benefits-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 24px;
-} */
-
-/* .benefits-list{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    flex-direction: column;
-    
-} */
 
 .benefits-item-icon {
     display: flex;
@@ -1358,12 +1114,6 @@ text-align: center;
     justify-content: center;
 }
 
-/* .benefits-item-text {
-    max-width: 264px;
-} */
-
-
-
 .benefits-item-heading {
     font-size: 20px;
     line-height: 1.2;
@@ -1372,220 +1122,27 @@ text-align: center;
     text-align: left;
 }
 
-
-
-/* .benefits-item-description {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: left;
-} */
-
 /* /BENEFITS SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /* TEAM SECTION DESKTOP */
-/* .team-section {
-    background: #f4f4fd;
-} */
-
-/* .team-section {
-    min-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-} */
 
 .team-section-container {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-/* .team-section-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-} */
-
-/* .team-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 64px;
-    column-gap: 24px;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .team-list-item-wrapper {
-    min-width: 264px;
-    padding: 32px 0;
-    border-radius: 0 0 4px 4px;
-    background: #fff;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-} */
-
-/* .team-list-item {
-    width: 264px;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-
-/* .team-item-heading {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 8px;
-} */
-
-/* .team-item-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 8px;
-} */
-
-/* .team-list-social {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .team-list-social-item-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4d5ae5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .team-list-social-item-link:hover,
-.team-list-social-item-link:focus {
-    background-color: #404bbf;
-} */
-
-/* .team-list-social-item-icon {
-    fill: #f4f4fd;
-} */
 /*  /TEAM SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*PORTFOLIO SECTION DESKTOP*/
 
 .portfolio-section .container {
-    /* min-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center; */
-    flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-/* .portfolio-section-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-} */
-
-.portfolio-list {
-
-    /* display: flex; */
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* column-gap: 24px;
-    row-gap: 48px; */
-    justify-content: center;
-    align-items: center;
-}
 
 .portfolio-item-img {
-    max-width: 356px;
+    max-width: 360px;
     max-height: 300px;
 }
-
-/* .portfolio-list-item {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .portfolio-list-item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-
-/* .portfolio-item-overlay-wrapper {
-    position: relative;
-    overflow: hidden;
-} */
-
-/* .portfolio-item-overlay-discription {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .portfolio-list-item:hover .portfolio-item-overlay-discription {
-    transform: translateY(0%);
-} */
-
-
-/* .portfolio-list-item-wrapper {
-    padding: 32px 16px;
-    border-right: 1px solid #e7e9fc;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-} */
-
-/* .portfolio-item-heading {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-} */
-
-/* .portfolio-item-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-} */
 
 /* /PORTFOLIO DESKTOP TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
