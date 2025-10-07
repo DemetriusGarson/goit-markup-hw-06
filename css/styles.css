@@ -207,7 +207,7 @@
 /* /HERO SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*BENEFITS SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-.benefits-section .container {
+.benefits-section {
     max-width: 767px;
     margin-left: auto;
     margin-right: auto;
@@ -575,27 +575,41 @@ color: #404bbf;
 } */
 
 /* /HERO SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-/*BENEFITS SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*BENEFITS SECTION TABLET */
 
-.benefits-section .container {
-    min-width: 768px;
+.benefits-section{
+    max-width: 768px;
     /* margin-left: auto;
     margin-right: auto;
     align-items: center; */
 }
 
-.benefits-list {
+/* .benefits-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
+} */
+
+/* .benefits-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    flex-direction: column;
+    
+} */
+
+.benefits-list {
+    max-width: 1157px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    
+    
 }
 
-.benefits-list-item{
-    flex-basis: calc(100%-24px)/2;
-}
-
-.benefits-item-icon {
+/* .benefits-item-icon {
     display: none;
     width: 264px;
     height: 112px;
@@ -605,20 +619,23 @@ color: #404bbf;
     margin-bottom: 8px;
     align-items: center;
     justify-content: center;
-}
+} */
 
+.benefits-item-text {
+    max-width: 356px;
+}
 
 .benefits-item-heading {
-    font-size: 36px;
+    /* font-size: 36px;
     line-height: 1.11111;
     margin-bottom: 8px;
-    color: #2e2f42;
-    text-align: center;
+    color: #2e2f42; */
+    text-align: left;
 }
 
 
 
-.benefits-item-description {
+/* .benefits-item-description {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -626,7 +643,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
-}
+} */
 
 /* /BENEFITS SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
@@ -851,5 +868,149 @@ color: #404bbf;
 } */
 
         /* /HERO SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+        /*BENEFITS SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.benefits-section{
+    max-width: 768px;
+    /* margin-left: auto;
+    margin-right: auto;
+    align-items: center; */
+}
+
+/* .benefits-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+} */
+
+/* .benefits-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    flex-direction: column;
+    
+} */
+
+.benefits-list {
+    max-width: 1157px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    
+    
+}
+
+/* .benefits-item-icon {
+    display: none;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.benefits-item-text {
+    max-width: 356px;
+}
+
+.benefits-item-heading {
+    /* font-size: 36px;
+    line-height: 1.11111;
+    margin-bottom: 8px;
+    color: #2e2f42; */
+    text-align: left;
+}
+
+
+
+/* .benefits-item-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: left;
+} */
+
+/* /BENEFITS SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* BENEFITS SECTION DESKTOP*/
+
+.benefits-section {
+    min-width: 1158px;
+    /* margin-left: auto;
+    margin-right: auto;
+    align-items: center; */
+}
+
+/* .benefits-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+} */
+
+/* .benefits-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    flex-direction: column;
+    
+} */
+
+.benefits-list {
+    min-width: 1158px;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    column-gap: 24px;
+    row-gap: 0px;
+
+
+}
+
+.benefits-item-icon {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits-item-text {
+    max-width: 264px;
+}
+
+
+
+.benefits-item-heading {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #2e2f42;
+    text-align: left;
+}
+
+
+
+/* .benefits-item-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: left;
+} */
+
+/* /BENEFITS SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 }
