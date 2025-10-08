@@ -103,6 +103,12 @@
 /* /"DEFAULT" STYLE SET MOBILExxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*PAGE HEADER STYLE MOBILE*/
 
+.header-section{
+    max-width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header-wrapper{
     display: flex;
     justify-content: space-between;
@@ -451,9 +457,18 @@
 /* /PORTFOLIO SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*FOOTER SECTION MOBILE*/
 
+.footer-section{
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
 .footer-wrapper{
+    display: flex;
     flex-direction: column;
     row-gap: 72px;
+    column-gap: 80px;
 }
 
 .footer-discription-wrapper {
@@ -641,9 +656,14 @@
 /*==========/"DEFAULT" STYLE SET TABLET==============*/
 /*===========PAGE HEADER STYLE TABLET==============*/
 
-/* .header{
+
+.header-section {
     max-width: 1157px;
-} */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .page-nav {
     display: flex;
     align-items: center;
@@ -784,11 +804,11 @@ text-align: center;
 
 /*  /TEAM SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*PORTFOLIO SECTION TABLET*/
-
-.portfolio-section .container {
-    flex-direction: column;
+.portfolio-section {
+    max-width: 1157px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 
 .portfolio-list {
