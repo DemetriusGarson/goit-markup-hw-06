@@ -75,12 +75,11 @@
     }
 
     .container {
-        max-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
         margin-left: auto;
         margin-right: auto;
-        /* align-items: center; */
+        
     }
 
     
@@ -94,6 +93,8 @@
     }
 
         .section {
+            margin-left: 0;
+            margin-right: 0;
             padding-top: 96px;
             padding-bottom: 96px;
         }
@@ -104,7 +105,6 @@
 /*PAGE HEADER STYLE MOBILE*/
 
 .header-section{
-    max-width: 767px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
@@ -157,8 +157,8 @@
 /* HERO SECTION MOBILE */
 
 .hero-section {
-    max-width: 767px;
-    padding-bottom: 72px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/backgrounds/hero-background-mobile.jpg');
@@ -180,7 +180,7 @@
         margin-left: auto;
         margin-right: auto;
         align-items: center;
-        row-gap: 48px;
+        row-gap: 72px;
 }
 
 
@@ -219,10 +219,8 @@
 /* BENEFITS SECTION MOBILE*/
 
 .benefits-section {
-    max-width: 767px;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
 }
 
 .benefits-list {
@@ -262,26 +260,14 @@
 }
 /* /BENEFITS SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /* TEAM SECTION MOBILE */
-.team-section {
-    max-width: 767px;
+
+.team-section{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
     background: #f4f4fd;
 }
 
-.team-section{
-    max-width: 767px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
-
-.team-section-container{
-    display: flex;
-    flex-direction: column;
-    max-width: 767px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
 
 .team-section-heading {
     font-family: "Roboto", sans-serif;
@@ -367,12 +353,7 @@
 /*  /TEAM SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*PORTFOLIO SECTION MOBILE*/
 
-.portfolio-section {
-    max-width: 767px;
-    margin-left: auto;
-    margin-right: auto;
-    /* align-items: center; */
-}
+
 
 .portfolio-section-heading {
     font-family: "Roboto", sans-serif;
@@ -460,7 +441,6 @@
 /*FOOTER SECTION MOBILE*/
 
 .footer-section{
-    max-width: 767px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -865,7 +845,7 @@
 }
 
 .container {
-    /* max-width: 736px; */
+    max-width: 768px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -879,7 +859,6 @@
 }
 
 .header-section {
-    max-width: 1157px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -964,7 +943,7 @@ color: #404bbf;
 /* /HERO SECTION TABLET*/
 
 .hero-section {
-    max-width: 1157px;
+    max-width: 1158px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/backgrounds/hero-background-tablet.jpg');
 }
 
@@ -1007,11 +986,6 @@ text-align: center;
 }
 /* TEAM SECTION TABLET */
 
-.team-section {
-    max-width: 1158px;
-}
-
-
 .team-list {
     display: flex;
     flex-direction: row;
@@ -1029,11 +1003,7 @@ text-align: center;
 
 /*  /TEAM SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*PORTFOLIO SECTION TABLET*/
-.portfolio-section {
-    max-width: 1157px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 .portfolio-list {
@@ -1081,7 +1051,6 @@ text-align: center;
     /*=========="DEFAULT" STYLE SET DESKTOP==============*/
 
 .container{
-    /* max-width: 1158px; */
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -1189,6 +1158,10 @@ text-align: center;
     flex-wrap: nowrap;
 }
 
+.team-section{
+    max-width: 1158px;
+}
+
 /*  /TEAM SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*PORTFOLIO SECTION DESKTOP*/
 
@@ -1292,7 +1265,7 @@ text-align: center;
 
 .mobile-contacts-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 24px;
 }
 
