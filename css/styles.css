@@ -999,13 +999,17 @@ text-align: center;
 }
 /* TEAM SECTION TABLET */
 
+.team-section {
+    max-width: 1158px;
+}
+
+
 .team-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 64px;
     column-gap: 24px;
-
 }
 
 .team-list-item-wrapper {
@@ -1075,8 +1079,6 @@ text-align: center;
 .container{
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
     /*==========/"DEFAULT" STYLE SET DESKTOP==============*/
@@ -1173,9 +1175,9 @@ text-align: center;
 /* /BENEFITS SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /* TEAM SECTION DESKTOP */
 
-.team-section-container {
-    padding-left: 15px;
-    padding-right: 15px;
+.team-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 /*  /TEAM SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -1184,12 +1186,6 @@ text-align: center;
 .portfolio-section .container {
     padding-left: 15px;
     padding-right: 15px;
-}
-
-
-.portfolio-item-img {
-    max-width: 360px;
-    max-height: 300px;
 }
 
 /* /PORTFOLIO DESKTOP TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
