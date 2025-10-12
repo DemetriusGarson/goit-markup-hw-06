@@ -1008,8 +1008,18 @@ text-align: center;
 /* /PORTFOLIO SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*FOOTER SECTION TABLET*/
 
+.footer-wrapper {
+    justify-content: flex-start;
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
 .footer-form-head-text {
     justify-content: flex-start;
+}
+
+.footer-form-input {
+    min-width: 264px;
 }
 
 .footer-social-discription {
@@ -1057,10 +1067,12 @@ text-align: center;
 
 /* .header-section {
     max-width: 1158px;
+    
 } */
 
 .header{
 max-width: 1158px;
+
 margin-left: auto;
 margin-right: auto;
 border-bottom: 1px solid #e7e9fc;
@@ -1115,6 +1127,9 @@ border-bottom: 1px solid #e7e9fc;
     }
 }
 
+.hero-section{
+    max-width: 1440px;;
+}
 .hero-section-heading {
     font-size: 56px;
     line-height: 1.07143;
@@ -1157,7 +1172,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .team-section{
-    max-width: 1158px;
+    max-width: 1440px;
 }
 
 /*  /TEAM SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -1171,7 +1186,48 @@ border-bottom: 1px solid #e7e9fc;
 
 /* /PORTFOLIO DESKTOP TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
+/*FOOTER SECTION DESKTOP*/
+
+.footer-section{
+    max-width: 1440px;
 }
+
+.footer-wrapper {
+    justify-content: center;
+    flex-wrap: nowrap;
+    column-gap: 0px; 
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-discription-wrapper{
+    margin-right:120px;
+}
+
+.footer-social-wrapper{
+margin-right: 80px;
+}
+.footer-form {
+    flex-wrap: nowrap;
+}
+
+.footer-form-head-text {
+    justify-content: flex-start;
+}
+
+.footer-form-input {
+    min-width: 264px;
+}
+
+.footer-social-discription {
+    justify-content: flex-start;
+}
+
+.page-logo-footer {
+    justify-content: flex-start;
+}
+
+/* /FOOTER SECTION DESKTOP xxxxxxxxxxxxxxxxxxxx*/
 
 
 
@@ -1194,6 +1250,7 @@ border-bottom: 1px solid #e7e9fc;
     padding: 72px 24px 24px 24px;
 }
 /* /MODAL STYLE DESKTOP xxxxxxxxxxxxxxxxxx */
+}
 /* MENU STYLE MOBILE */
 
 .mobile-menu {
