@@ -440,6 +440,7 @@
 /* /PORTFOLIO SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*FOOTER SECTION MOBILE*/
 
+
 .footer-section{
     margin-left: auto;
     margin-right: auto;
@@ -466,15 +467,10 @@
     justify-content: center;
 }
 
-
-
-
-
 .footer-social-wrapper {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    /* align-items: flex-start; */
 }
 
 
@@ -494,7 +490,6 @@
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    /* margin-right: 60px; */
 }
 
 .footer-form-head-text {
@@ -536,8 +531,6 @@
     color: #fff;
     justify-content: center;
 }
-
-
 
 .page-logo-footer {
     display: flex;
@@ -814,7 +807,7 @@
 
 /* /MODAL STYLE MOBILE xxxxxxxxxxxxxxxxxx */
 
-@media screen and (max-width:767px){
+/* @media screen and (max-width:767px){ */
 
 .mobile-menu-open-btn {
     background-color: transparent;
@@ -827,8 +820,6 @@
     fill: #2f2f37;
 }
 
-
-}
 
 @media screen and (min-width: 768px){
 
@@ -853,10 +844,6 @@
 /*==========/"DEFAULT" STYLE SET TABLET==============*/
 /*===========PAGE HEADER STYLE TABLET==============*/
 
-
-.container {
-    max-width: 1158px;
-}
 
 .header-section {
     margin-top: 0;
@@ -983,7 +970,7 @@ text-align: center;
 
 
 /* /BENEFITS SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-}
+
 /* TEAM SECTION TABLET */
 
 .team-list {
@@ -1021,8 +1008,16 @@ text-align: center;
 /* /PORTFOLIO SECTION TABLET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*FOOTER SECTION TABLET*/
 
-.footer-section {
-    max-width: 1158px;
+.footer-form-head-text {
+    justify-content: flex-start;
+}
+
+.footer-social-discription {
+    justify-content: flex-start;
+}
+
+.page-logo-footer {
+    justify-content: flex-start;
 }
 
 /* /FOOTER SECTION TABLET xxxxxxxxxxxxxxxxxxxx*/
@@ -1042,8 +1037,7 @@ text-align: center;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
 }
-
-
+}
 /* /MODAL STYLE TABLET xxxxxxxxxxxxxxxxxx */
 
 @media screen and (min-width: 1158px){
@@ -1051,6 +1045,7 @@ text-align: center;
     /*=========="DEFAULT" STYLE SET DESKTOP==============*/
 
 .container{
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -1060,12 +1055,15 @@ text-align: center;
 
     /*===========PAGE HEADER STYLE DESKTOP==============*/
 
-.header-section {
+/* .header-section {
     max-width: 1158px;
-}
+} */
 
-.page-header-container {
-    border-bottom: 1px solid #e7e9fc;
+.header{
+max-width: 1158px;
+margin-left: auto;
+margin-right: auto;
+border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
