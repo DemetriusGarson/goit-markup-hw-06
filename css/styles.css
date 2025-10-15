@@ -75,6 +75,7 @@
     }
 
     .container {
+        max-width: 320px;
         padding-left: 16px;
         padding-right: 16px;
         margin-left: auto;
@@ -93,8 +94,8 @@
     }
 
         .section {
-            margin-left: 0;
-            margin-right: 0;
+            /* margin-left: 0;
+            margin-right: 0; */
             padding-top: 96px;
             padding-bottom: 96px;
         }
@@ -105,8 +106,8 @@
 /*PAGE HEADER STYLE MOBILE*/
 
 .header-section{
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 16px;
     margin-bottom: 16px;
 }
@@ -157,8 +158,8 @@
 /* HERO SECTION MOBILE */
 
 .hero-section {
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/backgrounds/hero-background-mobile.jpg');
@@ -218,10 +219,10 @@
 /* /HERO SECTION MOBILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /* BENEFITS SECTION MOBILE*/
 
-.benefits-section {
+/* .benefits-section {
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .benefits-list {
     display: flex;
@@ -262,9 +263,9 @@
 /* TEAM SECTION MOBILE */
 
 .team-section{
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
-    align-items: center;
+    align-items: center; */
     background: #f4f4fd;
 }
 
@@ -282,6 +283,8 @@
 }
 
 .team-list {
+    display: flex;
+    flex-direction: column;
     row-gap: 72px;
     justify-content: center;
     align-items: center;
@@ -442,9 +445,9 @@
 
 
 .footer-section{
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
-    align-items: center;
+    align-items: center; */
     background-color: #2e2f42;
 }
 
@@ -837,8 +840,8 @@
 
 .container {
     max-width: 768px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
 }
 
 /*==========/"DEFAULT" STYLE SET TABLET==============*/
@@ -931,15 +934,17 @@ color: #404bbf;
 
 .hero-section {
     max-width: 1158px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/backgrounds/hero-background-tablet.jpg');
 }
 
 @media screen and (min-resolution: 192dpi) {
+
 .hero-section{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/backgrounds/hero-background-tablet@2x.jpg');
     }
 }
-
 
 .hero-section-heading {
     font-size: 56px;
@@ -949,9 +954,10 @@ color: #404bbf;
 /* BENEFITS SECTION TABLET*/
 
 
-.benefits-section{
+/* .benefits-section{
     max-width: 1157px;
-}
+} */
+
 
 .benefits-list {
 flex-direction: row;
@@ -974,7 +980,6 @@ text-align: center;
 /* TEAM SECTION TABLET */
 
 .team-list {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 64px;
@@ -1060,6 +1065,10 @@ text-align: center;
     padding-right: 15px;
 }
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
     /*==========/"DEFAULT" STYLE SET DESKTOP==============*/
 
 
@@ -1071,10 +1080,10 @@ text-align: center;
 } */
 
 .header{
-max-width: 1158px;
-
+/* max-width: 1158px;
 margin-left: auto;
-margin-right: auto;
+margin-right: auto; */
+
 border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -1128,8 +1137,11 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .hero-section{
-    max-width: 1440px;;
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
+
 .hero-section-heading {
     font-size: 56px;
     line-height: 1.07143;
@@ -1171,9 +1183,9 @@ border-bottom: 1px solid #e7e9fc;
     flex-wrap: nowrap;
 }
 
-.team-section{
+/* .team-section{
     max-width: 1440px;
-}
+} */
 
 /*  /TEAM SECTION DESKTOP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*PORTFOLIO SECTION DESKTOP*/
@@ -1189,7 +1201,8 @@ border-bottom: 1px solid #e7e9fc;
 /*FOOTER SECTION DESKTOP*/
 
 .footer-section{
-    max-width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-wrapper {
@@ -1232,8 +1245,6 @@ margin-right: 80px;
 
 
 /* MODAL STYLE DESKTOP*/
-
-/* MODAL STYLE TABLET */
 
 .backdrop.is-open {
     opacity: 1;
